@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f6f6f6
+} 
+
+header {
+    background: #111;
+    color:white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+}
+main {
+    background: white;
+
+    .page-tittle {
+     font-size:  40px;
+     padding: 50px;
+     text-align: center;
+    }
+.content {
+    display: flex;
+
+section {
+    flex: 1;
+}    
+aside {
+    background: red;
+    max-width: 250px;
+}
+}
+}

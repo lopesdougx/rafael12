@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f6f6f6
+} 
+
+header {
+    background: #111;
+    color:white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+}
+main {
+    background: white;
+    padding: 0 50px;
+
+    .page-tittle {
+     font-size:  40px;
+     padding: 50px;
+     text-align: center;
+    }
+.content {
+    display: flex;
+}
+
+}    
+
+aside{
+    background: red;
+    min-width: 250px
+}
+
+section {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th {
+    text-align: left;
+    padding-bottom: 10px ;
+    text-transform: uppercase;
+    color: #666; 
+}
+thead {
+    border-bottom: 3px solid rgb(141, 140, 140);
+}
+
+
+.name {
+    display: flex;
+}
